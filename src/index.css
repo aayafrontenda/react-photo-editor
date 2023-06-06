@@ -35,12 +35,13 @@ code {
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
+  margin-top: 6vh;
   height: 100%;
 }
 
 .sidebar {
   grid-area: sidebar;
-  background-color: hsl(265, 100%, 86%);
+  background-color: rgba(213, 184, 255, 0.3);
   border-left: 1px solid rgba(83, 61, 115, 0.05);
   display: flex;
   flex-direction: column;
@@ -51,7 +52,7 @@ code {
   cursor: pointer;
   border: none;
   outline: none;
-  background-color: hsl(265, 100%, 86%);
+  background-color: rgba(213, 184, 255, 0.3);
   padding: 1rem;
   position: relative;
   transition: background-color 150ms;
@@ -84,4 +85,7 @@ code {
 .slider {
   width: 100%;
   cursor: pointer;
+  -webkit-appearance: none;
+  border-radius: 10px;
+  background-color: rgba(184, 133, 255, 0.5)
 }
