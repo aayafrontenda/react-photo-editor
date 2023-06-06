@@ -101,6 +101,12 @@ function App() {
     })
   }
 
+  function getSliderStyle() {
+    return {
+      backgroundColor: `rgba(184, 133, 255, ${activeOption.value / activeOption.range.max + 0.2})`
+    }
+  }
+
   return (
     <div className="App">
       <div className='container'>
@@ -111,6 +117,7 @@ function App() {
           }
         </div>
         <Slider 
+          style={getSliderStyle()}
           min={activeOption.range.min}
           max={activeOption.range.max}
           value={activeOption.value}

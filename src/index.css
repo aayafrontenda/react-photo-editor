@@ -68,7 +68,7 @@ code {
   background-color: rgba(98, 0, 235, 0.35);
 }
 
-.sidebar-item:hover {
+.sidebar-item:hover, .sidebar-item:focus {
   background-color: rgba(184, 133, 255, 0.5)
 }
 
@@ -87,5 +87,5 @@ code {
   cursor: pointer;
   -webkit-appearance: none;
   border-radius: 10px;
-  background-color: rgba(184, 133, 255, 0.5)
+  background-color: rgba(184, 133, 255, 0.5);
 }
